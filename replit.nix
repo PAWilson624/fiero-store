@@ -1,5 +1,6 @@
-{pkgs}: {
+
+{ pkgs }: {
   deps = [
-    pkgs.python27
+    pkgs.nodejs-18_x
   ];
 }
