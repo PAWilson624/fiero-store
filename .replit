@@ -1,4 +1,4 @@
-hidden=[".config"]
+hidden = [".config"]
 modules = ["web"]
 
 [deployment]
@@ -19,3 +19,7 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "node script.js"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
