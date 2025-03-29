@@ -14,3 +14,8 @@ a {
   border-radius: 5px;
   border: none;
 }
+
+.product-image {
+  margin-top: 25px;
+  filter: hue-rotate(180);
+}
